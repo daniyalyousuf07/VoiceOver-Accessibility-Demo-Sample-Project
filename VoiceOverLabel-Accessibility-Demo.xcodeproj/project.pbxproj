@@ -13,6 +13,10 @@
 		702ADBF82A0D776800A1B588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702ADBF62A0D776800A1B588 /* Main.storyboard */; };
 		702ADBFA2A0D776A00A1B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702ADBF92A0D776A00A1B588 /* Assets.xcassets */; };
 		702ADBFD2A0D776A00A1B588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702ADBFB2A0D776A00A1B588 /* LaunchScreen.storyboard */; };
+		702ADC052A0D78E000A1B588 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702ADC042A0D78E000A1B588 /* Fruit.swift */; };
+		702ADC0A2A0D796300A1B588 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702ADC082A0D796300A1B588 /* FruitCell.swift */; };
+		702ADC0B2A0D796300A1B588 /* FruitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702ADC092A0D796300A1B588 /* FruitCell.xib */; };
+		702ADC0D2A0DB43100A1B588 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702ADC0C2A0DB43100A1B588 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		702ADBF92A0D776A00A1B588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702ADBFC2A0D776A00A1B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702ADBFE2A0D776A00A1B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702ADC042A0D78E000A1B588 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		702ADC082A0D796300A1B588 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
+		702ADC092A0D796300A1B588 /* FruitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitCell.xib; sourceTree = "<group>"; };
+		702ADC0C2A0DB43100A1B588 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				702ADBF92A0D776A00A1B588 /* Assets.xcassets */,
 				702ADBFB2A0D776A00A1B588 /* LaunchScreen.storyboard */,
 				702ADBFE2A0D776A00A1B588 /* Info.plist */,
+				702ADC042A0D78E000A1B588 /* Fruit.swift */,
+				702ADC082A0D796300A1B588 /* FruitCell.swift */,
+				702ADC092A0D796300A1B588 /* FruitCell.xib */,
+				702ADC0C2A0DB43100A1B588 /* UIView+Extension.swift */,
 			);
 			path = "VoiceOverLabel-Accessibility-Demo";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702ADC0B2A0D796300A1B588 /* FruitCell.xib in Resources */,
 				702ADBFD2A0D776A00A1B588 /* LaunchScreen.storyboard in Resources */,
 				702ADBFA2A0D776A00A1B588 /* Assets.xcassets in Resources */,
 				702ADBF82A0D776800A1B588 /* Main.storyboard in Resources */,
@@ -138,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702ADC0D2A0DB43100A1B588 /* UIView+Extension.swift in Sources */,
+				702ADC052A0D78E000A1B588 /* Fruit.swift in Sources */,
+				702ADC0A2A0D796300A1B588 /* FruitCell.swift in Sources */,
 				702ADBF52A0D776800A1B588 /* ViewController.swift in Sources */,
 				702ADBF12A0D776800A1B588 /* AppDelegate.swift in Sources */,
 				702ADBF32A0D776800A1B588 /* SceneDelegate.swift in Sources */,
